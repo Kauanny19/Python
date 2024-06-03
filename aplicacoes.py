@@ -70,4 +70,28 @@ for i in range(len(lista) -1, -1, -1):
 #Exibir a lista original modificada
 print("Lista modificada:", lista)
 
+#Lista avançadas
+#2D - listas aninhadas bidimensionais
+tabela = [[":(", ":)", ":|", ";-;"],
+          [";-;", ":|", ":)", ":("], 
+          [":|", ":)", ";-;", ":("]]
+print(tabela[2][2])
+print(tabela)
+
+
+#3D - Matriz Tridimensional
+cubo = [[[":(", "y", "z"], 
+         [":)", "y", "z"], 
+         [":|", "y", "z"]], 
+        [["amor", "ódio", "caridade"], 
+         ["paz", "esperança", "férias"], 
+         ["tina", "prior", "pp"]], 
+        [["restinga", "patrocinio", "rifaina"], 
+         ["amazonence", "fluminense", "santos"], 
+         ["pizza", "lasanha", "pastel"]]]
+print(cubo)
+print(cubo[1])
+print(cubo[1][0])
+print(cubo[1][0][2])
+
 time.sleep(3)
