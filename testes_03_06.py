@@ -8,7 +8,7 @@ sorteado = rd(-100, 100) #Sorteia um número de -100 a 100
 lista = [rd(1,6) for i in range(1,11)]
 lista2 = [x for x in range(1, 11)]
 lista3 = ["Rolo compressor!!!" for f in range (1, 5)]
-# print(lista)
+print(lista)
 # print(lista2)
 # print(lista3)
 
