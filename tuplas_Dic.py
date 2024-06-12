@@ -36,6 +36,6 @@ print(len(notas))
 
 for disciplina in notas.keys():
     print(disciplina)
-    
+
 
 time.sleep(3)
